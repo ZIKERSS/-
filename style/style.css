@@ -1,0 +1,272 @@
+@media (max-width: 600px) {
+    .advantages-container img {
+        display: none;
+    }
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    font-size: 37px;
+    font-family: Verdana;
+}
+
+h2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    font-family: Verdana;
+}
+
+h3 {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #2D92CC;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 30%));
+}
+
+/*трава*/
+.header {
+    position: relative;
+    width: 100%;
+    height: 1280px;
+    background: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-clip: border-box;
+}
+
+.fond-logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/*текст 1*/
+.reasons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 100%;
+}
+
+.reasons-item {
+    margin: 70px;
+    flex: 1 1 25%;
+}
+
+.reasons-container div {
+    position: relative;
+}
+
+.reason-increased-yield::before {
+    position: absolute;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background-image: url("img/icon/reasons-icon1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.reason-field-irrigation::before {
+    position: absolute;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background-image: url("img/icon/reasons-icon2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.reason-water-regime-control::before {
+    position: absolute;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background-image: url("img/icon/reasons-icon3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.reason-saving-resources::before {
+    position: absolute;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background-image: url("img/icon/reasons-icon4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.reason-mobility-flexibility::before {
+    position: absolute;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    background-image: url("img/icon/reasons-icon5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+/*текст 2*/
+.advantages-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text-advantages {
+    flex: 0.5 1 25%;
+}
+
+.img-advantages {
+    display: block;
+    max-width: 150px;
+    flex: 1 2 100px;
+}
+
+
+/*Конструктор*/
+
+.construction-img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+/*Каркас*/
+.carcass-img {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carcass {
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin: 20px auto 70px auto;
+}
+
+
+/*Прототип*/
+.prototype-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.prototype-img {
+    flex: 1 1 15%;
+    vertical-align: middle;
+    margin: 50px;
+}
+
+.prototype-img-w25 {
+    flex: 1 1 25%;
+}
+
+
+/*видео*/
+
+#video {
+    width: 70%;
+    display: block;
+    height: auto;
+    margin: 50px auto;
+}
+
+
+/*Награды*/
+.doc-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #2D92CC;
+}
+
+.doc-vertical-img {
+    flex-basis: 404px;
+    height: auto;
+}
+
+.doc-item {
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 50px 0;
+}
+
+.doc-horizontal-img {
+    flex-basis: 600px;
+    height: auto;
+}
+
+
+
+
+
+.text {
+    font-size:18px;
+    font-weight: bold;
+    font-family: Verdana;
+    line-height: 2;
+}
+
+.text-indent-50 {
+    text-indent: 50px;
+}
+
+.font-nav {
+    color: white;
+}
+
+.footer-item {
+    margin: 30px 0;
+}
